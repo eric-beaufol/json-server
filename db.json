@@ -2,62 +2,138 @@
   "questions": [
     {
       "id": 1,
-      "body": "Qu'est-ce qu'un cryptogramme dynamique ?",
-      "proposals": [
-        "une nouvelle danse",
-        "un truc vachement énervé",
-        "un exercice de fitness",
-        "un code qui change toutes les heures"
-      ],
-      "proposalType": "text",
-      "clue": null,
-      "service": null
+      "title": "Qui est l'homme le plus riche du monde ?",
+      "type": "text",
+      "media": "",
+      "responses": [{
+          "id": 22,
+          "label": "Tim Cook",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 23,
+          "label": "Jeff Bezos",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 1
+      }, {
+          "id": 24,
+          "label": "Mark Zuckerberg",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 25,
+          "label": "Bill Gates",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }],
+      "offer": null
     },
     {
       "id": 2,
-      "body": "Quel club de football compte Orange parmis ses partenaires ?",
-      "proposals": [
-        "http://assets.stickpng.com/images/580b57fcd9996e24bc43c4d8.png",
-        "https://upload.wikimedia.org/wikipedia/commons/6/68/FC-Nantes-blason-rvb.png ",
-        "http://assets.stickpng.com/images/580b57fcd9996e24bc43c4d8.png",
-        "https://upload.wikimedia.org/wikipedia/commons/6/68/FC-Nantes-blason-rvb.png "
-      ],
-      "proposalType": "image",
-      "clue": null,
-      "service": null
+      "title": "Quel club de football compte Orange parmis ses partenaires ?",
+      "type": "image",
+      "media": "",
+      "responses": [{
+          "id": 22,
+          "label": "PSG",
+          "type": "image",
+          "media": "http://assets.stickpng.com/images/580b57fcd9996e24bc43c4d8.png",
+          "isGoodAnswer": 1
+      }, {
+          "id": 23,
+          "label": "FC Nantes",
+          "type": "image",
+          "media": "https://upload.wikimedia.org/wikipedia/commons/6/68/FC-Nantes-blason-rvb.png",
+          "isGoodAnswer": 0
+      }, {
+          "id": 24,
+          "label": "PSG2",
+          "type": "image",
+          "media": "http://assets.stickpng.com/images/580b57fcd9996e24bc43c4d8.png",
+          "isGoodAnswer": 0
+      }, {
+          "id": 25,
+          "label": "FC Nantes 2",
+          "type": "image",
+          "media": "https://upload.wikimedia.org/wikipedia/commons/6/68/FC-Nantes-blason-rvb.png",
+          "isGoodAnswer": 0
+      }],
+      "offer": null
     },
     {
-      "id": 2,
-      "body": "Les épisodes de « Games Of Thrones » étaient diffusés sur OCS combien de temps après leur diffusion aux US ?",
-      "proposals": [
-        "24 heures",
-        "48 heures",
-        "1 semaine",
-        "1 an"
-      ],
-      "proposalType": "text",
-      "clue": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
-      "clueType": "video",
-      "service": null
-    },
-    {
-      "id": 2,
-      "body": "Quel est le nom de ce fruit ?",
-      "proposals": [
-        "Une pomme",
-        "Une poire",
-        "Un litchi",
-        "Une orange"
-      ],
-      "proposalType": "text",
-      "clue": "https://www.lesvergersdegally.com/wp-content/uploads/2014/07/fruit7-270x270.png",
-      "clueType": "image",
-      "service": {
-        "id": 1,
-        "title": "Orange Banque",
-        "body": "<p>Pour payer en toute sécurité, la carte Mastercard Premium d’Orange Bank propose un nouveau cryptogramme toutes les heures. <strong>Une personne ne pourra plus s’en servir dès que le cryptogramme aura changé.</strong></p>",
-        "mentions": " * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rutrum elit vel nunc hendrerit, at tempor mi blandit. Morbi commodo"
+      "id": 3,
+      "title": "Qu'est-ce qu'un cryptogramme dynamique ?",
+      "type": "text",
+      "media": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+      "offer_id": 1,
+      "responses": [{
+          "id": 22,
+          "label": "une nouvelle danse",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 23,
+          "label": "un truc vachement énervé",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 24,
+          "label": "un exercice de fitness",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 25,
+          "label": "un code qui change toutes les heures",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 1
+      }],
+      "offer": {
+          "id": 1,
+          "label": "Lorem ipsum dolor sit amet",
+          "image": "storage\/offers\/99aeb84ea8415dc02ef6799e6d040e86.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in elit risus. Nam ut urna lectus. Ut at leo non arcu ultrices ultrices id non purus. Nunc maximus est sit amet lorem consectetur, ut laoreet justo maximus. Aliquam eget sem eget leo dignissim placerat vitae sed est. Nulla at urna at neque lobortis ultricies.",
+          "color": "#ff6600"
       }
-    }
+    },
+    {
+      "id": 4,
+      "title": "Quel est le nom de ce fruit ?",
+      "type": "text",
+      "media": "https://www.lesvergersdegally.com/wp-content/uploads/2014/07/fruit7-270x270.png",
+      "offer_id": 1,
+      "responses": [{
+          "id": 22,
+          "label": "Une pomme",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 23,
+          "label": "Une poire",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 24,
+          "label": "Un litchi",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 0
+      }, {
+          "id": 25,
+          "label": "Une orange",
+          "type": "text",
+          "media": null,
+          "isGoodAnswer": 1
+      }],
+      "offer": null
   ]
 }
